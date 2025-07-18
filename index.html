@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alpha Log</title>
+  <style>
+    :root {
+      --verde-escuro: #18583B;
+      --cinza-escuro: #4B575C;
+      --cinza-claro: #8E8D91;
+      --azul-escuro: #002676;
+      --laranja: #E79115;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      color: var(--cinza-escuro);
+      background-color: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: var(--azul-escuro);
+      color: #fff;
+      padding: 10px 0;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    header nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1100px;
+      margin: auto;
+      padding: 0 20px;
+    }
+
+    header nav img {
+      height: 50px;
+    }
+
+    header nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    header nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 100px 20px 80px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    #intro {
+      text-align: center;
+    }
+
+    #intro h1 {
+      color: var(--verde-escuro);
+      margin-bottom: 10px;
+    }
+
+    #intro p {
+      font-size: 1.2rem;
+      color: var(--cinza-claro);
+    }
+
+    #descricao {
+      background-color: #f9f9f9;
+    }
+
+    #descricao h2, #contato h2 {
+      color: var(--azul-escuro);
+      margin-bottom: 20px;
+    }
+
+    #descricao p, #contato p {
+      font-size: 1rem;
+      color: var(--cinza-escuro);
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: var(--cinza-escuro);
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    @media (max-width: 768px) {
+      header nav {
+        flex-direction: column;
+      }
+
+      header nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <img src="logo-alphalog.jpg" alt="Logo AlphaLog" />
+      <ul>
+        <li><a href="#intro">Início</a></li>
+        <li><a href="#descricao">Descrição</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="intro">
+    <h1>Alpha Log</h1>
+    <p>Excelência em logística urbana e gestão de estoques</p>
+  </section>
+
+  <section id="descricao">
+    <h2>Quem somos</h2>
+    <p>
+      A Alpha Log é a operação logística do Grupo AOS, especializada em transporte urbano e gestão de estoques. Atuamos na entrega de mercadorias do centro de distribuição aos clientes com agilidade, segurança e rastreabilidade.
+    </p>
+    <br />
+    <p>
+      Além do transporte, também realizamos a gestão de cargas de distribuidoras de energia solar e armazenamos produtos de fabricantes parceiros, garantindo reposição rápida em caso de trocas ou manutenções.
+    </p>
+    <br />
+    <p>
+      Nosso compromisso é oferecer soluções logísticas inteligentes, integradas e alinhadas à excelência do grupo que representamos.
+    </p>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p><strong>CNPJ:</strong> 44.470.272/0001-20</p>
+    <p><strong>E-mail:</strong> administrativo@aos.eco.br</p>
+    <p><strong>Telefone:</strong> (85) 98563-3498</p>
+    <p><strong>Endereço:</strong> Av. Viena Weyme, 812, Cambeba, Fortaleza, CE. CEP 60822-180</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Alpha Log. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
